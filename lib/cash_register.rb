@@ -3,3 +3,5 @@ class Register
   
   def initialize
     @total = 0
+  end
+end
