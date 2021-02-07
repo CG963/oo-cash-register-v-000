@@ -8,7 +8,7 @@ class CashRegister
     @price = price
     @quantity = quantity
     @items = []
-    @trnsactions = []
+    @transactions = []
   end 
  
   def add_item(title, price, quantity = 1)
