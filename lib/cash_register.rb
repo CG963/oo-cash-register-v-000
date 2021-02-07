@@ -7,5 +7,9 @@ class Register
     @cart = []
   end
   
+  def add_item(item, price, quantity)
+    
+    
+  end
   
 end
