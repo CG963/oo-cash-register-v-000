@@ -22,6 +22,7 @@ class CashRegister
       self.total -=(0.01 * discount * @total).to_i
       "After the discount, the total comes to $#{self.total}."
     end
+  end
 end
 
 
