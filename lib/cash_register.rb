@@ -1,2 +1,2 @@
 class Register
-  attr_accessor :
+  attr_accessor :discount
