@@ -12,6 +12,6 @@ class CashRegister
   end 
  
   def add_item
-    self.age += 1
+    
   end
 end
