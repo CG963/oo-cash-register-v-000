@@ -6,4 +6,6 @@ class Register
     @discount = discount
     @cart = []
   end
+  
+  
 end
