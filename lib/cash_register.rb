@@ -11,7 +11,8 @@ class CashRegister
     @trnsactions = []
   end 
  
-  def add_item(title, price, quantity)
+  def add_item(title, price, quantity = 1)
+    @total += price * quantity
     
   end
 end
