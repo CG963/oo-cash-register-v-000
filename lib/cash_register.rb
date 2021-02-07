@@ -38,7 +38,7 @@ class CashRegister
     if items.empty? 
       self.total = 0.0
     else
-      self.total = @total - @transactions.pop
+      self.total -= @transactions.pop
     end
   end
 end
