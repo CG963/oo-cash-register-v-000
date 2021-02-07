@@ -12,4 +12,5 @@ class Register
     
   end
   
+  def apply_discount()
 end
