@@ -8,9 +8,10 @@ class CashRegister
     @price = price
     @quantity = quantity
     @items = []
+    @trnsactions = []
   end 
  
-  def birthday
+  def add_item
     self.age += 1
   end
 end
