@@ -12,5 +12,13 @@ class Register
     
   end
   
-  def apply_discount()
+  def apply_discount
+    
+  end
+  
+  def items
+    
+  end
+  
+  
 end
