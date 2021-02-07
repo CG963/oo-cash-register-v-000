@@ -1,4 +1,5 @@
 class Register
   attr_accessor :discount. :total
   
-  def initialize()
+  def initialize
+    @total = 0
